@@ -1,0 +1,8 @@
+package br.com.avanovadigital.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.avanovadigital.model.Produto;
+
+public interface ProdutoRepository extends JpaRepository<Produto, Long> {
+}
